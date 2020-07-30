@@ -1,3 +1,6 @@
+// При загрузке
+
+disHello = false;
 window.onload = function () {
     hideAddressBar();
     window.addEventListener("orientationchange", function () {
@@ -30,13 +33,33 @@ window.onload = function () {
             messWrap.appendChild(messageP);
         };
     };
-    setTimeout(popupHello, 5000);
+
+    dis = getCookie('dis');
+    if (dis != 'true') {
+        setTimeout(displayHello, 13000);
+        setTimeout(popupHello, 15000);
+    };
 };
 
-function popupHello () {
-    document.querySelector('.popupHello').classList.add('helloUp');
-    document.querySelector('.mainButton').classList.add('whiteUp');
+
+
+// Призыв
+
+function displayHello () {
+    if (disHello == false) {
+        document.querySelector('.popupHello').classList.add('displayHello');
+    }
 };
+function popupHello () {
+    if (disHello == false) {
+        document.querySelector('.popupHello').classList.add('helloUp');
+        document.querySelector('.mainButton').classList.add('whiteUp');
+        document.querySelector('.accentImgWrapper').classList.add('accentUp');
+    }
+};
+
+
+
 
 function hideAddressBar() {
     setTimeout(function () {
@@ -49,6 +72,12 @@ function hideAddressBar() {
 }
 
 function botToggleUp() {
+    disHello = true;
+    document.querySelector('.popupHello').classList.remove('displayHello');
+    document.querySelector('.popupHello').classList.remove('helloUp');
+    document.querySelector('.mainButton').classList.remove('whiteUp');
+    document.querySelector('.accentImgWrapper').classList.remove('accentUp');
+    setCookie('dis', 'true', 30)
     messages = document.querySelectorAll('.message');
     document.querySelector('.wrapWrapper').classList.add('botActive');
     document.querySelector('.mainButton').classList.add('buttonUp');
@@ -74,6 +103,7 @@ function buttonClose() {
 
 
 
+// Close & Delete
 
 function backUp() {
     document.querySelector('.back').classList.add('backActive');
@@ -90,6 +120,8 @@ function deleteDown() {
 
 
 
+// Enter click event
+
 function key13(event) {
     input = document.querySelector('.botSender');
     button = document.querySelector('.botKey');
@@ -102,6 +134,8 @@ function key13(event) {
 };
 
 
+
+// Deleting
 
 function deleteAll() {
     messages = document.querySelectorAll('.message');
@@ -119,6 +153,9 @@ function alertDeleteDown() {
     document.querySelector('.deleteAlert').classList.remove('aAlert');
 };
 
+
+
+// Bot
 
 function sendMessage() {
     input = document.querySelector('.botSender');
@@ -242,6 +279,7 @@ function replyMessage(direct) {
 };        
 
 
+
 // Cookie
 
 function setCookie(cname,cvalue,exdays) {
@@ -274,4 +312,5 @@ function deleteCookie() {
         mess = setCookie(tag1, '0', -1);
         kind = setCookie(tag2, '0', -1);
     }
+    setCookie('dis', '0', -1)
 }

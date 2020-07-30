@@ -21,6 +21,7 @@
         border-radius: 1000px;
         width: 120px;
         height: 120px;
+        cursor: pointer;
     }
     .whiteUp{
         background-color: #fff;
@@ -36,14 +37,15 @@
         width: 220px;
         top: -85px;
         right: -5px;
-        font-size: xx-small;
         display: flex;
         justify-content: center;
         text-align: center;
-        background-color: #000000aa;
+        background-color: rgba(0,0,0,0.7);
+        backdrop-filter: saturate(180%) blur(5px);
         border-radius: 6px;
         color: #ffffff;
         opacity: 0;
+        padding: 8px;
     }
     .popupName p {
         font-size: small;
@@ -59,13 +61,14 @@
         content: '';
         position: absolute;
         bottom: -12px;
-        right: 50px;
+        right: 65px;
         border: 6px solid transparent;
-        border-top: 6px solid #000000aa;
+        border-top: 6px solid rgba(0,0,0,0.8);
+        backdrop-filter: saturate(180%) blur(20px);
     }
     .mainButton img{
-        height: 120px;
-        width: 160px;
+        height: 150px;
+        width: 200px;
         max-width: inherit;
     }
     .wrapWrapper{
@@ -82,7 +85,8 @@
         flex-direction: column;
         height: 400px;
         width: 250px;
-        background-color: #fff;
+        background-color: rgba(255,255,255,0.85);
+        backdrop-filter: saturate(180%) blur(20px);
         box-shadow: 0 25.6px 57.6px 0 rgba(0,0,0,.22), 0 4.8px 14.4px 0 rgba(0,0,0,.18);
         border-radius: 25px;
         z-index: 900001;
@@ -329,17 +333,17 @@
         border-top-left-radius: 100px;
         border-bottom-left-radius: 100px;
         font-size: large;
+        display: none;
     }
-    .lightImgWrapper, .mainImgWrapper{
+    .accentImgWrapper, .mainImgWrapper{
         border-radius: 1000px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .lightImgWrapper{
+    .accentImgWrapper{
         height: 110px;
         width: 110px;
-        background-color: #ffa200;
     }
     .mainImgWrapper{
         height: 100px;
@@ -350,7 +354,12 @@
         transform: translateX(-30px);
         opacity: 1;
     }
-}
+    .displayHello{
+        display: inline;
+    }
+    .accentUp{
+        background-color: #ffa200;}
+    }
 
 
 
@@ -644,13 +653,5 @@
     }
     .toucanAnime{
         animation: bouncing 10s infinite 10s ease-in-out;
-    }
-    @keyframes bouncing{
-        0%  { transform: translateY(0px); }
-        2%  { transform: translateY(-50px);}
-        4%  { transform: translateY(0px);}
-        6%  { transform: translateY(-35px);}
-        8%  { transform: translateY(0px);}
-        100%{ transform: none;}
     }
 }
