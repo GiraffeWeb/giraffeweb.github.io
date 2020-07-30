@@ -30,9 +30,13 @@ window.onload = function () {
             messWrap.appendChild(messageP);
         };
     };
+    setTimeout(popupHello, 5000);
+};
 
-    console.log(document.cookie);
-}
+function popupHello () {
+    document.querySelector('.popupHello').classList.add('helloUp');
+    document.querySelector('.mainButton').classList.add('whiteUp');
+};
 
 function hideAddressBar() {
     setTimeout(function () {
