@@ -63,8 +63,8 @@
         bottom: -12px;
         right: 65px;
         border: 6px solid transparent;
-        border-top: 6px solid rgba(0,0,0,0.8);
-        backdrop-filter: saturate(180%) blur(20px);
+        border-top: 6px solid rgba(0,0,0,0.7);
+        backdrop-filter: saturate(180%) blur(5px);
     }
     .mainButton img{
         height: 150px;
