@@ -63,8 +63,8 @@
         bottom: -12px;
         right: 65px;
         border: 6px solid transparent;
-        border-top: 6px solid rgba(0,0,0,0.8);
-        backdrop-filter: saturate(180%) blur(20px);
+        border-top: 6px solid rgba(0,0,0,0.7);
+        backdrop-filter: saturate(180%) blur(5px);
     }
     .mainButton img{
         height: 150px;
@@ -320,49 +320,52 @@
     .aAlert{
         display: flex;
     }
-
-    .popupHello{
-        opacity: 0;
-        z-index: 998999;
-        position: fixed;
-        bottom: 70px;
-        right: 85px;
-        padding: 10px 30px 10px 10px;
-        color: #fff;
-        background-color: #FFA200;
-        border-top-left-radius: 100px;
-        border-bottom-left-radius: 100px;
-        font-size: large;
-        display: none;
-    }
-    .accentImgWrapper, .mainImgWrapper{
-        border-radius: 1000px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .accentImgWrapper{
-        height: 110px;
-        width: 110px;
-    }
-    .mainImgWrapper{
-        height: 100px;
-        width: 100px;
-        background-color: #fff;
-    }
-    .helloUp{
-        transform: translateX(-30px);
-        opacity: 1;
-    }
-    .displayHello{
-        display: inline;
-    }
-    .accentUp{
-        background-color: #ffa200;}
-    }
+}
 
 
 
+.popupHello{
+    opacity: 0;
+    z-index: 998999;
+    position: fixed;
+    bottom: 70px;
+    right: 85px;
+    padding: 10px 30px 10px 10px;
+    color: #fff;
+    background-color: #FFA200;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    font-size: large;
+    display: none;
+}
+.accentImgWrapper, .mainImgWrapper{
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accentImgWrapper{
+    height: 110px;
+    width: 110px;
+}
+.mainImgWrapper{
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+}
+.helloUp{
+    transform: translateX(-30px);
+    opacity: 1;
+}
+.displayHello{
+    display: inline;
+}
+.accentUp{
+    background-color: #ffa200;
+}
+.whiteUp{
+    background-color: #fff;
+}
 
 
 
@@ -392,15 +395,15 @@
         bottom: 15px;
         right: 15px;
         border-radius: 1000px;
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
     }
     .popupName{
         display: none;
     }
     .mainButton img{
-        height: 120px;
-        width: 160px;
+        height: 150px;
+        width: 200px;
         max-width: inherit;
     }
     .wrapWrapper{
@@ -651,7 +654,12 @@
     .inputItem{
         box-sizing: content-box;
     }
-    .toucanAnime{
-        animation: bouncing 10s infinite 10s ease-in-out;
+}
+
+
+@media (max-width: 576px){
+    header{
+        display: flex;
+        align-items: center;
     }
 }

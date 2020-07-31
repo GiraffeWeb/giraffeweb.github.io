@@ -2556,7 +2556,6 @@ ul {
 .menu_icon:after {
   position: absolute;
   content: "\e68e";
-  top: 7px;
   left: 0px;
   font-family: 'themify';
   color: #000000;

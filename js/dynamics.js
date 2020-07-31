@@ -36,8 +36,8 @@ window.onload = function () {
 
     dis = getCookie('dis');
     if (dis != 'true') {
-        setTimeout(displayHello, 13000);
-        setTimeout(popupHello, 15000);
+        setTimeout(displayHello, 8000);
+        setTimeout(popupHello, 10000);
     };
 };
 
