@@ -959,14 +959,23 @@ Web-studio <a href="https://giraffeweb.ru" target="_blank">GiraffeWeb </a>&copy;
     <!--::Footer::-->
     <!-- Myself ToucanBot -->
 
-
-
+    <div class="popupHello">
+        <div class="helloItem">
+            Knock, knock, good to see you!
+        </div>
+    </div>
     <div class="background"></div>
     <div class="mainButton toucanAnime" onclick="botToggleUp()">
         <div class="popupName">
             <p>Hello! I am your personal guide to this site <a href="https://giraffeweb.ru/toucanbot/" target="yes">Toucan</a>. Ask me what you want!</p>
         </div>
-        <img src="img/toucan_bot_img/chat.png">
+        <div class="lightImgWrapper">
+            <div class="accentImgWrapper">
+                <div class="mainImgWrapper">
+                    <img src="img/toucan_bot_img/chat.png">
+                </div>
+            </div>
+        </div>
     </div>
     <div class="deleteAlert">
         <div>
@@ -987,13 +996,12 @@ Web-studio <a href="https://giraffeweb.ru" target="_blank">GiraffeWeb </a>&copy;
         <div class="wrapper">
             <div class="wrapItem">
                 <div class="field">
-                    <div class="reply message"><div><p>Knock knock, good to see you!</p></div></div>
                 </div>
             </div>
             <div class="inputMessage">
                 <div class="inputItem">
                     <div class="inputWrapper">
-                        <input class="botSender" onkeyup="key13(event)" type="text" placeholder="You message">
+                        <input class="botSender" onkeyup="key13(event)" type="text" placeholder="Your message">
                     </div>
                     <div class="middle"></div>
                     <div class="buttonWrapper">
@@ -1003,6 +1011,8 @@ Web-studio <a href="https://giraffeweb.ru" target="_blank">GiraffeWeb </a>&copy;
             </div>
         </div>
     </div>
+
+
     <!-- Toucan bot-->
     <script src="js/dynamics.js"></script>
     <!-- jquery plugins here-->
