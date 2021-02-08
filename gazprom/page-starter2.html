@@ -40,11 +40,19 @@ for(i=0;i<200;i++) {
   time=time+1;
   if(time=100) {
     setTimeout(function(){
-  window.location.href = 'index.html';
-}, 2 * 1000);
-  
-  }
+      let links = ["result.html","result1.html","result2.html", "result3.html", "result4.html", "result5.html", "result6.html", "result7.html", "result8.html",];
+  function randomInteger(min, max) {
+// получить случайное число от (min-0.5) до (max+0.5)
+let rand = min - 0.5 + Math.random() * (max - min + 1);
+return Math.round(rand);
+links[randomInteger(0, 7)];
 }
+  window.location.href = links[randomInteger(0, 7)];
+}, 2 * 1000);
+  }
+
+}
+
 
   </script>
   <body>
