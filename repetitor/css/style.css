@@ -691,7 +691,7 @@ h1, h2, h3, h4, h5,
     height: 100%;
     width: 100%;
     background: #3a3a3a;
-    opacity: .7;
+    opacity: .8;
     border-bottom-right-radius: 0px; }
     @media (max-width: 991.98px) {
       .slide-1:before {
