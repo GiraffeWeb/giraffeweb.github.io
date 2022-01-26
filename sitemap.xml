@@ -1,129 +1,284 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-	<loc>https://giraffeweb.ru/</loc>
-	<lastmod>2020-12-28T04:28:07+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/index.html</loc>
-	<lastmod>2020-12-28T04:28:07+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/index.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/portfolio.html</loc>
-	<lastmod>2020-12-28T04:28:10+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/portfolio.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/packages.html</loc>
-	<lastmod>2020-12-28T04:28:10+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/packages.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/contact.html</loc>
-	<lastmod>2020-12-28T04:28:10+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/contact.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/index_en.html</loc>
-	<lastmod>2020-12-28T04:28:10+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/index_en.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/brif.docx</loc>
-	<lastmod>2020-12-28T04:28:11+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/zhannakazakova.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/policy.docx</loc>
-	<lastmod>2020-12-28T04:28:13+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/gazprom.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/floreco.html</loc>
-	<lastmod>2020-12-28T04:28:13+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/floreco.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/zhannakazakova.html</loc>
-	<lastmod>2020-12-28T04:28:15+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/floreco/index.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/repetitor.html</loc>
-	<lastmod>2020-12-28T04:28:13+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/repetitor.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/conforttransfer.html</loc>
-	<lastmod>2020-12-28T04:28:13+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/repetitor/index.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/toucanbot.html</loc>
-	<lastmod>2020-12-28T04:28:13+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/conforttransfer.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/portfolio_en.html</loc>
-	<lastmod>2020-12-28T04:28:13+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/conforttransfers/index.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/packages_en.html</loc>
-	<lastmod>2020-12-28T04:28:13+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/toucanbot.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/contact_en.html</loc>
-	<lastmod>2020-12-28T04:28:14+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/toucanbots/index.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/projects_en.html</loc>
-	<lastmod>2020-12-28T04:28:14+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/dlmine.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/repetitor/</loc>
-	<lastmod>2020-12-28T04:28:14+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://giraffeweb.ru/kropalov.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/toucanbot</loc>
-	<lastmod>2020-12-28T04:28:14+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/kropalov/index.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/floreco_en.html</loc>
-	<lastmod>2020-12-28T04:28:14+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/doortomsk.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/zhannakazakova_en.html</loc>
-	<lastmod>2020-12-28T04:28:14+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/kropalov</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/repetitor_en.html</loc>
-	<lastmod>2020-12-28T04:28:14+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/dlmine/index.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/conforttransfer_en.html</loc>
-	<lastmod>2020-12-28T04:28:14+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/policy.docx</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/toucanbot_en.html</loc>
-	<lastmod>2020-12-28T04:28:15+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://giraffeweb.ru/brif.docx</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://giraffeweb.ru/repetitor/index.html</loc>
-	<lastmod>2020-12-28T04:28:15+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://giraffeweb.ru/portfolio_en.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://giraffeweb.ru/packages_en.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/contact_en.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/zhannakazakova_en.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/gazprom_en.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/floreco_en.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/repetitor_en.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/conforttransfer_en.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/toucanbot_en.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/dlmine_en.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/doortomsk_en.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/policy_en.docx</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/floreco/about</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/repetitor/</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/conforttransfers/</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/conforttransfers/faq.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/conforttransfers/contact.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/toucanbots/blog.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/toucanbots/contact.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/kropalov/cinema.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/kropalov/blog.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/kropalov/music.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/kropalov/partner.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/kropalov/contact.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/dlmine/sberbankpay.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/dlmine/sberbankpay</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/dlmine/logs.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/dlmine/rules.docx</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/kropalov_en.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/floreco/about.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://giraffeweb.ru/floreco/contact.html</loc>
+  <lastmod>2022-01-26T06:10:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>
