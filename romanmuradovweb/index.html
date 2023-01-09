@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <title>RomanMuradov</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Сайт Романа Мурадова, г. Москва">
+    <meta name="keywords" content="RG, Roman Muradov, Роман Мурадов, Москва">
+    <meta name="author" content="GiraffeWeb">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/vendor/icomoon/style.css">
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/vendor/animate.min.css">
+    <link rel="stylesheet" href="css/vendor/aos.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+    
+    <!-- CSS GiraffeWeb -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+    <nav class="unslate_co--site-mobile-menu">
+      <div class="close-wrap d-flex">
+        <a href="#" class="d-flex ml-auto js-menu-toggle">
+          <span class="close-label">Свернуть</span>
+          <div class="close-times">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+          </div>
+        </a>
+      </div>
+      <div class="site-mobile-inner"></div>
+    </nav>
+    <div class="unslate_co--site-wrap">
+      <div class="unslate_co--site-inner">
+        <div class="lines-wrap">
+          <div class="lines-inner">
+            <div class="lines"></div>
+          </div>
+        </div>
+        <nav class="unslate_co--site-nav site-nav-target">
+          <div class="container">
+            <div class="row align-items-center justify-content-between text-left">
+              <div class="col-md-5 text-right">
+                <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                  <li><a href="#about" class="nav-link">Обо мне</a></li>
+                  <li><a href="#services" class="nav-link">Компетенции</a></li>
+                </ul>
+              </div>
+              <div class="site-logo pos-absolute">
+                <a href="index.html" class="unslate_co--site-logo">RG<span>.</span></a>
+              </div>
+              <div class="col-md-5 text-right text-lg-left">
+                <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                  <li><a href="#team" class="nav-link">Команда</a></li>
+                  <li><a href="#" class="nav-link"></a></li>
+                  <li><a href="#contact" class="nav-link">Сотрудничество</a></li>
+                </ul>
+                <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
+                  <li><a href="#" class="js-menu-toggle">Меню</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      <div class="cover-v1 jarallax" style="background-image: url('images/roman.jpg');" id="home-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-7 mx-auto text-center">
+              <h1 class="heading gsap-reveal-hero" >Роман Мурадов</h1>
+              <h2 class="subheading gsap-reveal-hero" >Воплощаю бренды в реальность</h2>
+            </div>
+          </div>
+        </div>
+        <a href="#about" class="mouse-wrap smoothscroll">
+          <span class="mouse">
+            <span class="scroll"></span>
+          </span>
+          <span class="mouse-label">Начнём</span>
+        </a>
+      </div>
+      <div class="unslate_co--section" id="portfolio-section">
+        <div class="container">
+          <div class="relative"><div class="loader-portfolio-wrap"><div class="loader-portfolio"></div></div> </div>
+          <div id="portfolio-single-holder"></div>
+          <div class="portfolio-wrapper">
+            <!--<div class="d-flex align-items-center mb-4 gsap-reveal gsap-reveal-filter">
+              <h2 class="mr-auto heading-h2"><span class="gsap-reveal">Портфолио</span></h2>
+              <a href="#" class="text-white js-filter d-inline-block d-lg-none">Filter</a>
+              <div class="filter-wrap">
+                <div class="filter ml-auto" id="filters">
+                  <a href="#" class="active" data-filter="*">Все</a>
+                  <a href="#" data-filter=".web">Технологии</a>
+                  <a href="#" data-filter=".branding">Стиль</a>
+                </div>
+              </div> 
+            </div> 
+
+            
+            <div id="posts" class="row gutter-isotope-item">
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Shoe Rebranding</h3>
+                        <p>web, branding</p>
+                      </div>
+                    </div>
+                    <img src="images/work_1_md.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item branding packaging illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2 ">
+                <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="3">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Reworking</h3>
+                        <p>branding, packaging, illustration</p>
+                      </div>
+                    </div>
+                    <img src="images/work_2_md.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="portfolio-single-4.html" class="portfolio-item isotope-item gsap-reveal-img ajax-load-page" data-id="4">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Modern Building</h3>
+                        <p>branding, packaging</p>
+                      </div>
+                    </div>
+                    <img src="images/work_3_md.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item web packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="images/work_4_full.jpg" class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="Watch">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-photo2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Watch</h3>
+                        <p>web, packaging</p>
+                      </div>
+                    </div>
+                    <img src="images/work_4_full.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item illustration packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="images/work_5_md.jpg" class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="Shoe Rebranding">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-photo2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Shoe Rebranding</h3>
+                        <p>illustration, packaging</p>
+                      </div>
+                    </div>
+                    <img src="images/work_5_md.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="portfolio-single-2.html" class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="2">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Reshape</h3>
+                        <p>web, branding</p>
+                      </div>
+                    </div>
+                    <img src="images/work_6_md.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="images/work_7_a_md.jpg" class="portfolio-item item-portrait isotope-item gsap-reveal-img " data-fancybox="gallery" data-caption="Modern Building">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-photo2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Modern Building</h3>
+                        <p>branding, packaging</p>
+                      </div>
+                    </div>
+                    <img src="images/work_7_a_md.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="https://www.youtube.com/watch?v=mwtbEGNABWU" class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="Showreel 2019">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-play_circle_filled"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Showreel 2019</h3>
+                        <p>web, branding</p>
+                      </div>
+                    </div>
+                    <img src="images/work_8_md.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item web illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="images/work_9_a_md.jpg" class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="Render Packaging">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-photo2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Render Packaging</h3>
+                        <p>web, illustration</p>
+                      </div>
+                    </div>
+                    <img src="images/work_9_a_md.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div> 
+      
+
+
+      <!-- About GiraffeWeb -->
+      <div class="unslate_co--section" id="about">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Обо мне</span></h2>
+            <span class="gsap-reveal">
+            <img src="images/divider.png" alt="divider" width="76">
+            </span>
+          </div>
+          <div class="row mt-5 justify-content-between">
+            <div class="col-lg-7 mb-5 mb-lg-0">
+              <figure class="dotted-bg gsap-reveal-img ">
+                <img src="images/romanabout.jpg" style='border-radius:25px;' alt="Image" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-lg-4 pr-lg-5">
+              <h3 class="mb-4 heading-h3"><span class="gsap-reveal">Я, Роман</span></h3>
+              <p class="lead gsap-reveal">Рад знакомству с вами. Я являюсь многогранной личностью, которая развивается не только в направлениях <a href="#">современного дизайна</a>, но и технологий.</p>
+              <p class="mb-4 gsap-reveal">Слежу за последними тенденциями развития мира и готов к сотрудничеству с целеустремленными людьми, которые готовы реализовать то, что способно удивить окружающих.</p>
+            </div>
+          </div>
+          <div class="row mt-5 justify-content-between">
+            <div class="col-lg-7 mb-5 mb-lg-0">
+              <figure class="dotted-bg gsap-reveal-img ">
+                <!-- INSERT IMAGE -->
+              </figure>
+            </div>
+            <div class="col-lg-4 pr-lg-5">
+              <p class="mb-4 gsap-reveal">Если вы хотите развить свою идею или же проект, то смело обращайтесь ко мне. Ведь только свежие идеи будут приносить <a href="#">прибыль</a>.</p>
+              <p class="gsap-reveal"><a href="https://instagram.com/r.g.o.w" class="btn btn-outline-pill btn-custom-light">Сотрудничать</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unslate_co--section" id="services">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Мои компетенции</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+          <div class="row gutter-v3">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/001-options.svg" alt="Image" width="45">
+                </div>
+                <h3>Разработка идей</h3>
+                <p>Генерирую новые идеи, которые можно воплотить в жизнь и выйти на рынок с новым бизнесом. </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/002-chat.svg" alt="Icon" width="45">
+                </div>
+                <h3>Веб-разработка</h3>
+                <p>Сотрудничаю с ведущей веб-студией в городе Москве. Подберем подходящий для вас бизнес-план. <a href='https://giraffeweb.ru'>Сайт веб-студии</a>.</p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/003-contact-book.svg" alt="Image" class="img-fluid" width="45">
+                </div>
+                <h3>Популярные люди</h3>
+                <p>Имею контакты с знаменитостями в различных медиа сферах. Рассматриваются различные варианты сотрудничества для самых различных сфер. </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/004-percentage.svg" alt="Image" width="45">
+                </div>
+                <h3>Разработка</h3>
+                <p>Занимаюсь созданием проектов в IT или игровой индустрии, есть идеи? Напишите мне. </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/006-goal.svg" alt="Image" width="45">
+                </div>
+                <h3>Продвижение</h3>
+                <p>Имею профессиональные навыки для продвижения в различных социальных сетях. </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/005-line-chart.svg" alt="Image" width="45">
+                </div>
+                <h3>Совместный рост</h3>
+                <p>Для меня важно знакомство и сотрудничество с людьми и разных сфер деятельности. </p>
+              </div> 
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience GiraffeWeb -->
+      <div class="unslate_co--section section-counter" id="team">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Мой опыт</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+          <div class="row pt-5">
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="5">5</span>
+                  <span class="append-text"></span>
+                </span>
+                <span class="counter-label">завершенных проектов</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="10">0</span>
+                  <span class="append-text"></span>
+                </span>
+                <span class="counter-label">человек в команде</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="3">0</span>
+                  <span class="append-text"></span>
+                </span>
+                <span class="counter-label">сотрудничество с артистами</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="100">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">Успешность</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Testimonial GiraffeWeb -->
+      <div class="unslate_co--section" id="testimonial-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Что говорят обо мне</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+        </div>
+        <div class="owl-carousel testimonial-slider" data-aos="fade-up">
+          <div>
+            <div class="testimonial-v1">
+              <div class="testimonial-inner-bg">
+                <span class="quote">&ldquo;</span>
+                <blockquote>
+                  Знаком с Романом длительное время, добрый и отзывчивый человек, который относится к каждому делу с ответственностью. Рад, что знаком с таким человеком.
+                </blockquote>
+              </div>
+              <div class="testimonial-author-info">
+                <h3>Кропалов Влас, артист</h3>
+                <span class="d-block position">@vlaskropalov</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="testimonial-v1">
+              <div class="testimonial-inner-bg">
+                <span class="quote">&ldquo;</span>
+                <blockquote>
+                 Роман чётко и ясно формулирует поставленные задачи, благодаря этому возможна быстрая реализация тех или иных проектов.
+                </blockquote>
+              </div>
+              <div class="testimonial-author-info">
+                <h3>Лазорин Данил, веб-разработчик</h3>
+                <span class="d-block position">@danyalazorin</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="testimonial-v1">
+              <div class="testimonial-inner-bg">
+                <span class="quote">&ldquo;</span>
+                <blockquote>
+                Сотрудничаем с Романом уже около 2-ух лет. За этот период выполнили совместно более 15 заказов. Все задачи сформулированы отличным образом. 
+                </blockquote>
+              </div>
+              <div class="testimonial-author-info">
+                <h3>Гладков Никита, дизайнер</h3>
+                <span class="d-block position">@gladkov</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      
+
+      <!-- Contact GiraffeWeb -->
+      <div class="unslate_co--section" id="contact">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Сотрудничество</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+          <div class="row justify-content-between">
+            <div class="col-md-6">
+              <form action="https://formspree.io/meqeedad" method="POST" class="form-outline-style-v1">
+                <div class="form-group row mb-0">
+                  <div class="col-lg-6 form-group gsap-reveal">
+                    <label for="name">ФИО</label>
+                    <input name="name" type="text" class="form-control">
+                  </div>
+                  <div class="col-lg-6 form-group gsap-reveal">
+                    <label for="email">Email</label>
+                    <input name="email" type="email" class="form-control">
+                  </div>
+                  <div class="col-lg-12 form-group gsap-reveal">
+                    <label for="message">Ваше предложение/вопрос</label>
+                    <textarea name="message"  cols="30" rows="7" class="form-control"></textarea>
+                  </div>
+                </div>
+                <div class="form-group row gsap-reveal">
+                    <div class="col-md-12 d-flex align-items-center">
+                      <input type="submit" class="btn btn-outline-pill btn-custom-light mr-3" value="Отправить">
+                      <span class="submitting"></span>
+                    </div>
+                  </div>
+              </form>
+            </div>
+
+            <div class="col-md-4">
+              <div class="contact-info-v1">
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Email</span>
+                  <a href="#" class="contact-info-val">romanmuradovweb@yandex.ru</a>
+                </div>
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Instagram</span>
+                  <a href="https://instagram.com/r.g.o.w" class="contact-info-val">Перейти в профиль</a>
+                </div>
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Расположение</span>
+                  <address class="contact-info-val">Россия, город Москва</address>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- Footer GiraffeWeb -->
+      <footer class="unslate_co--footer unslate_co--section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7">
+              <div class="footer-site-logo"><a href="#">RG<span>.</span></a></div>
+              <ul class="footer-site-social">
+                <li><a href="https://vk.com/rgmuradov">VK</a></li>
+                <li><a href="https://instagram.com/r.g.o.w">INSTAGRAM</a></li>
+                <li><a href="https://vk.com/rgprojectrg">RGPROJECT</a></li>
+              </ul>
+              <p class="site-copyright">  
+                &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script> Все права защищены | Веб-студия <i class="icon-heart"
+                  aria-hidden="true"></i> <a href="https://giraffeweb.ru" target="_blank">GiraffeWeb</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>      
+    </div>
+
+    <!-- Preloader GiraffeWeb -->
+    <div id="unslate_co--overlayer"></div>
+    <div class="site-loader-wrap">
+      <div class="site-loader"></div>
+    </div>
+    <script src="js/scripts-dist.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
