@@ -158,7 +158,7 @@ function sendMessage() {
             replyMessage(reply);
         };
         for (item of dir3) {
-            reply = 'Установка toucan.bot бесплатна, Вы можете заказать установку, возпользуясь формой ниже или написав нам на почту dmitriyhernov1@yandex.ru';
+            reply = 'Установка toucan.bot бесплатна, Вы можете заказать установку, возпользуясь формой ниже или написав нам на почту.';
             replyMessage(reply);
         };
         for (item of dir4) {
