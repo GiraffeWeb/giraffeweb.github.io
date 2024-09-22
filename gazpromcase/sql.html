@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SQL</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/logo.png">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,300&amp;display=swap" rel="stylesheet">
+    <link href="assets/lib/prismjs/prism-okaidia.css" rel="stylesheet">
+    <link href="assets/css/theme.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Main -->
+    <main class="main">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 pl-0">
+        <div class="container"><a class="navbar-brand text-primary font-weight-bold" href="index.html"> Oracle SQL </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item text-muted"><a class="nav-link active" aria-current="page" href="">Документация</a></li>
+              <li class="nav-item dropdown"><a class="nav-link" id="navbarDropdowndoc" href="#" role="button" data-toggle="dropdown" aria-expanded="false"></a>
+                <div class="dropdown-menu navbar-dropdown-menu" aria-labelledby="navbarDropdowndoc">
+                  <div class="list-group list-group-flush"><a class="list-group-item py-3 d-flex align-items-center" href="documentation.html"><img src="assets/img/gallery/document.png" alt="" />
+                      <div class="ml-3"><span class="font-weight-bold text-uppercase text-primary"></span>
+                        <p class="text-secondary mb-0"></p>
+                      </div>
+                    </a><a class="list-group-item py-3 d-flex align-items-center" href="#"><img src="assets/img/gallery/components.png" alt="" />
+                      <div class="ml-3"><span class="font-weight-bold text-uppercase text-primary"></span>
+                        <p class="text-secondary mb-0"></p>
+                        <p>СКОРО</p>
+                      </div>
+                    </a><a class="list-group-item py-3 d-flex align-items-center" href="#"><img src="assets/img/gallery/bar_chart.png" alt="" />
+                      <div class="ml-3"><span class="font-weight-bold text-uppercase text-primary">ЖУРНАЛ ИЗМЕНЕНИЙ <span class="badge badge-secondary bg-light text-primary">1.0.0</span></span>
+                        <p>СКОРО</p>
+                      </div>
+                    </a></div>
+                </div>
+              </li>
+            </ul><a class="btn btn-primary ml-auto hover-top-shadow" href="page-starter"></a>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row mt-3">
+          <div class="col-lg-9 col-xxl-10">
+            <div class="card shadow-sm mb-3">
+              <div class="card-header px-4 py-3">
+                <h5 class="mb-0 contains-anchor" id="quick-start">Выдача прав GRANT<a class="anchor" href="#quick-start"> #</a></h5>
+              </div>
+              <div class="card-body p-4">
+                <p class="mb-0">Выдача прав происходит с помощью команды GRANT Вы можете предоставить пользователям различные привилегии к таблицам. Эти привилегии могут быть любой комбинацией SELECT, INSERT, UPDATE, DELETE, REFERENCES, ALTER, INDEX, или другие..</p>
+              </div>
+            </div>
+
+            <div class="card shadow-sm mb-3">
+              <div class="card-header px-4 py-3">
+                <h5 class="mb-0 contains-anchor" id="quick-start">Синтаксис<a class="anchor" href="#quick-start"> #</a></h5>
+              </div>
+              <div class="card-body p-4">
+                <p class="mb-0">Синтаксис для предоставления привилегий для таблицы в Oracle/PLSQL:</p>
+                <code>
+                  GRANT CREATE USER TO C##test555;<br>
+                  GRANT DBA TO C##test555;<br>
+                  GRANT CREATE SESSION TO C##test555;<br>
+
+
+GRANT CREATE TABLE TO C##test555;<br>
+GRANT CREATE SEQUENCE TO C##test555;<br>
+GRANT CREATE PROCEDURE TO C##test555;<br>
+GRANT EXECUTE ANY PROCEDURE TO C##test555;<br>
+ALTER USER C##test555 QUOTA 100M ON USERS;<br>
+GRANT ALTER USER TO C##test555;<br>
+GRANT CREATE JOB TO C##test555;<br>
+GRANT MANAGE SCHEDULER TO C##test555;<br>
+GRANT EXECUTE ANY PROCEDURE TO C##test555;<br>
+GRANT EXECUTE ON DBMS_JOB TO C##test555;<br>
+                </code>
+              </div>
+            </div>
+
+            <div class="card shadow-sm mb-3">
+              <div class="card-header px-4 py-3">
+                <h5 class="mb-0 contains-anchor" id="quick-start">Дополнительное описание.<a class="anchor" href="#quick-start"> #</a></h5>
+              </div>
+              <div class="card-body p-4">
+                <p class="mb-0">Вы можете использовать привилегии GRANT и REVOKE для различных объектов базы данных в MySQL. Затем вы можете просмотреть привилегии, назначенные пользователю, используя команду SHOW GRANTS. Мы рассмотрим, как предоставлять и отменять привилегии для таблиц, функций и процедур в MySQL.</p>
+              </div>
+            </div>
+
+            <div class="card shadow-sm mb-3">
+              <div class="card-header px-4 py-3">
+                <h5 class="mb-0 contains-anchor" id="quick-start">Пример<a class="anchor" href="#quick-start"> #</a></h5>
+              </div>
+              <div class="card-body p-4">
+                <p class="mb-0">CREATE TABLE ks_21_04 (<br>
+                  id NUMBER PRIMARY KEY,<br>
+                  name VARCHAR2(100),<br>
+                  lab1 NUMBER DEFAULT 0,<br>
+                  lab2 NUMBER DEFAULT 0,<br>
+                  lab3 NUMBER DEFAULT 0,<br>
+                  lab4 NUMBER DEFAULT 0,<br>
+                  lab5 NUMBER DEFAULT 0,<br>
+                  lab6 NUMBER DEFAULT 0,<br>
+                  lab7 NUMBER DEFAULT 0,<br>
+                  lab8 NUMBER DEFAULT 0,<br>
+                  lab9 NUMBER DEFAULT 0,<br>
+                  lab10 NUMBER DEFAULT 0<br>
+                  );<br>
+
+                  create user C##user11 identified by 123;<br>
+                  grant create session to C##user11;<br>
+                  alter user C##user11 quota 100M on USERS;<br>
+                  
+                  INSERT INTO ks_21_04 (id, name) VALUES (1,'C##user11');<br>
+                  
+                  select * from ks_21_04;<br>
+                  
+                  create sequence lab1_seq START WITH 1 INCREMENT BY 1;<br>
+                  
+                  create table lab1_results (<br>
+                  id NUMBER PRIMARY KEY,<br>
+                  name VARCHAR2(100)<br>
+                  );<br>
+                
+                  
+                  CREATE OR REPLACE PROCEDURE manage_privileges(<br>
+                  p_username IN VARCHAR2,<br>
+                  p_privileges IN VARCHAR2,<br>
+                  p_table IN VARCHAR2,<br>
+                  p_action IN VARCHAR2<br>
+                  )<br>
+                  AS<br>
+                  BEGIN<br>
+                  IF p_action = 'GRANT' THEN<br>
+                  EXECUTE IMMEDIATE 'GRANT ' || p_privileges || ' ON ' || p_table || ' TO ' || p_username;<br>
+                  ELSIF p_action = 'REVOKE' THEN<br>
+                  EXECUTE IMMEDIATE 'REVOKE ' || p_privileges || ' ON ' || p_table || ' FROM ' || p_username;<br>
+                  ELSE<br>
+                  RAISE_APPLICATION_ERROR(-20001, 'Неверное значение');<br>
+                  END IF;<br>
+                  END;<br>
+                  
+                  CALL manage_privileges('c##user11','SELECT','lab1_results','REVOKE');<br>
+                  
+                  select * from ks_21_04;<br>
+                  
+                  
+                  
+                  UPDATE ks_21_04<br>
+                  SET lab5 = 1<br>
+                  WHERE name = 'C##user11';<br>
+                  
+                  CREATE OR REPLACE PROCEDURE schedule_privileges_job (<br>
+                    p_username IN VARCHAR2,<br>
+                    p_privileges IN VARCHAR2,<br>
+                    p_table IN VARCHAR2,<br>
+                    p_action IN VARCHAR2<br>
+                  )<br>
+                  AS<br>
+                    l_job NUMBER;<br>
+                  BEGIN<br>
+                    DBMS_JOB.submit(<br>
+                      job       => l_job,<br>
+                      what      => 'BEGIN manage_privileges(''' || p_username || ''', ''' || p_privileges || ''', ''' || p_table || ''', ''' || p_action || '''); END;',<br>
+                      next_date => SYSDATE + INTERVAL '1' MINUTE,<br>
+                      interval  => NULL<br>
+                    );<br>
+                  END;<br>
+                  
+                  
+                  CREATE OR REPLACE TRIGGER grant_access_lab1<br>
+                  AFTER UPDATE OF lab1 ON ks_21_04<br>
+                  FOR EACH ROW<br>
+                  BEGIN<br>
+                    IF :NEW.lab1 = 1 AND :OLD.lab1 = 0 THEN<br>
+                      schedule_privileges_job(:NEW.name, 'SELECT', 'lab1_results', 'GRANT');<br>
+                    ELSIF :NEW.lab1 = 0 AND :OLD.lab1 = 1 THEN<br>
+                      schedule_privileges_job(:NEW.name, 'SELECT', 'lab1_results', 'REVOKE');<br>
+                    END IF;<br>
+                  END;<br>
+                  
+                  SELECT job, what, next_date, broken<br>
+                  FROM dba_jobs<br>
+                  WHERE schema_user = 'C##USER2';<br>
+                  
+                  BEGIN<br>
+                    manage_privileges('C##user11', 'SELECT', 'lab1_results', 'REVOKE');<br>
+                  END;<br>
+                  
+                  SELECT job, last_date, failures, broken<br>
+                  FROM dba_jobs<br>
+                  WHERE schema_user = 'C##USER2';<br>
+                  
+                  BEGIN<br>
+                    DBMS_JOB.RUN(18); -- номер задания из списка<br>
+                  END;<br></p>
+              </div>
+            </div>
+
+            <div class="card shadow-sm mb-3">
+              <div class="card-header px-4 py-3">
+                <h5 class="mb-0 contains-anchor" id="quick-start">Результаты<a class="anchor" href="#quick-start"> #</a></h5>
+              </div>
+              <div class="card-body p-4">
+                <p class="mb-0">Изучены основы GRANT.</p>
+              </div>
+            </div>
+
+            
+
+
+            <h3 class="mt-6 mb-4 contains-anchor" id="rtl">Конструкция сайта<a class="anchor" href="#rtl">#</a></h3>
+            <div class="card shadow-sm mb-3">
+              <div class="card-header px-4 py-3">
+                <h5 class="mb-0 contains-anchor" id="setting-up-html">Сайт построен на HTML/JS.<a class="anchor" href="#setting-up-html"> #</a></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            </section>
+
+    <!-- Footer -->
+
+
+    </main>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/lib/is/is.min.js"></script>
+    <script src="assets/lib/stickyfilljs/stickyfill.min.js"></script>
+    <script src="assets/lib/prismjs/prism.js"></script>
+    <script src="assets/js/theme.js"></script>
+  </body>
+</html>
